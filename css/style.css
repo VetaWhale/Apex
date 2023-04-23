@@ -1,0 +1,59 @@
+/* Шрифты
+font-family: 'DM Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+/* Основные цвета сайта */
+:root {
+  --accent-color: #fb8e0b;
+  --dark-color: #1b1c20;
+  --grey-color: #383a47;
+}
+/* Основные шрифты текста */
+.text-1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: var(--dark-color);
+}
+.text-2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: var(--dark-color);
+}
+.text-3 {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--grey-color);
+}
+
+.container {
+  max-width: 1295px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .text-1 {
+    font-size: 34px;
+    line-height: 49px;
+  }
+  .text-2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
