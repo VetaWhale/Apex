@@ -1,3 +1,6 @@
+@import url("../css/header.css");
+@import url("../css/about-company.css");
+
 /* Шрифты
 font-family: 'DM Sans', sans-serif;
 font-family: 'Josefin Sans', sans-serif; */
@@ -22,6 +25,7 @@ body {
   font-weight: 700;
   font-size: 50px;
   line-height: 60px;
+  letter-spacing: -0.03em;
   color: var(--dark-color);
 }
 .text-2 {
@@ -39,7 +43,22 @@ body {
 }
 
 .container {
+  margin: 0 auto;
   max-width: 1295px;
+}
+button {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+}
+.button {
+  padding: 13px 20px;
+  border: 1px solid var(--accent-color);
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--accent-color);
+  color: #fff;
 }
 
 @media only screen and (max-width: 767px) {

@@ -4,25 +4,91 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Josefin+Sans:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Apex</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header__nav"></nav>
+        <div class="menu">
+          <div class="menu__logo">
+            <picture>
+              <source media="(max-width: 500px)" srcset="img/Logo-mobile.svg" />
+              <img src="img/Logo.svg" alt="logo Apex" />
+            </picture>
+          </div>
+          <nav class="menu__nav">
+            <ul class="nav-list">
+              <li>
+                <a class="nav-link" href="">Demos</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">About</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Blog</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Pages</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu__personal-area">
+            <button class="menu__personal-area_login">Login</button>
+            <a class="menu__personal-area_demo button" href="#start"
+              >Get Started Free</a
+            >
+          </div>
+        </div>
       </div>
     </header>
     <main>
       <section class="about-company">
-        <div class="container"></div>
+        <div class="container">
+          <div class="about-company__inner">
+            <div class="about-company__content">
+              <div class="about-conmany__content-title text-1">
+                Start chatting with customers, anytime, anywhere with Apex
+              </div>
+              <div class="about-conmany__content-subtitle">
+                Great software that allows you to chat from any place at any
+                time without any interruption.
+              </div>
+              <a class="about-company__content-button button" href="#start"
+                >Start Chatting Now <img src="img/Icon-arrow-right.svg" alt=""></a>
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="img/rating-app-mobile.svg"
+                />
+                <img
+                  class="about-company__content-img"
+                  src="img/rating-app.svg"
+                  alt="rating our app"
+                />
+              </picture>
+            </div>
+            <div class="about-company__background-picture">
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="img/home-img-mobile.svg"
+                />
+                <img src="img/home-img.svg" alt="our happy user" />
+              </picture>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="features">
         <div class="container"></div>
@@ -39,7 +105,7 @@
       <section class="reviews">
         <div class="container"></div>
       </section>
-      <section class="start-work">
+      <section class="start-work" id="start">
         <div class="container"></div>
       </section>
     </main>

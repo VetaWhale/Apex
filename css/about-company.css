@@ -1,0 +1,25 @@
+.about-company {
+    padding-bottom: 80px;
+}
+.about-company__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.about-company__content {
+    margin-top: 80px;
+}
+.about-conmany__content-title {
+    margin-bottom: 30px;
+}
+.about-conmany__content-subtitle {
+    margin-bottom: 30px;
+}
+.about-company__content-button img{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.about-company__content-img {
+    margin-top: 110px;
+}
+.about-company__background-picture {
+}
