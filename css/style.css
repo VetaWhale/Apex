@@ -1,5 +1,6 @@
 @import url("../css/header.css");
 @import url("../css/about-company.css");
+@import url("../css/features.css");
 
 /* Шрифты
 font-family: 'DM Sans', sans-serif;
@@ -34,6 +35,7 @@ body {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
+  letter-spacing: -0.03em;
   color: var(--dark-color);
 }
 .text-3 {
