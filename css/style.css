@@ -4,6 +4,7 @@
 @import url("../css/about-video-chat.css");
 @import url("../css/about-sales.css");
 @import url("../css/about-orders.css");
+@import url("../css/reviews.css");
 
 /* Шрифты
 font-family: 'DM Sans', sans-serif;
@@ -39,7 +40,6 @@ body {
   font-size: 48px;
   line-height: 56px;
   letter-spacing: -0.03em;
-  color: var(--dark-color);
 }
 .text-3 {
   font-size: 16px;
