@@ -1,0 +1,20 @@
+.about-sales {
+    padding: 110px 0;
+}
+.about-sales__content {
+    display: flex;
+    align-items: center;
+}
+.about-sales__content_inner {
+}
+.about-sales__content_inner-title {
+    margin-bottom: 24px;
+}
+.about-sales__content_inner-text {
+    margin-bottom: 40px;
+}
+.about-sales__content_inner-button {
+    
+}
+.about-sales__content-img {
+}
