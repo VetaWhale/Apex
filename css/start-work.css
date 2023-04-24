@@ -1,0 +1,14 @@
+.start-work {
+  padding-top: 105px;
+  padding-bottom: 130px;
+}
+.start-work__content {
+  text-align: center;
+}
+.start-work__content-title {
+  margin: 0 auto 30px;
+  margin-bottom: 30px;
+  max-width: 740px;
+}
+.start-work__content-button {
+}
