@@ -51,6 +51,7 @@
             >
           </div>
         </div>
+        <button class="burger-btn"></button>
       </div>
     </header>
     <main>
@@ -149,7 +150,11 @@
         <div class="container">
           <div class="about-video-chat__content">
             <div class="about-video-chat__content-img">
-              <img src="img/video-chat.jpg" alt="video-chat-apex" />
+                <picture>
+                    <source media="(max-width: 600px)" srcset="img/video-chat-mobile.jpg">
+                    <img src="img/video-chat.jpg" alt="video-chat-apex" />
+                </picture>
+              
             </div>
             <div class="about-video-chat__content_inner">
               <h2 class="about-video-chat__content_inner-title text-2">
@@ -184,7 +189,10 @@
               >
             </div>
             <div class="about-sales__content-img">
-              <img src="img/chat-sales.svg" alt="video-chat-apex" />
+                <picture>
+                    <source media="(max-width: 600px)" srcset="img/chat-sales-mobile.svg">
+                    <img src="img/chat-sales.svg" alt="video-chat-apex" />
+                </picture>
             </div>
           </div>
         </div>
@@ -193,7 +201,10 @@
         <div class="container">
           <div class="about-orders__content">
             <div class="about-orders__content-img">
-              <img src="img/direct-orders.svg" alt="video-chat-apex" />
+                <picture>
+                    <source media="(max-width: 600px)" srcset="img/direct-orders-mobile.svg">
+                    <img src="img/direct-orders.svg" alt="video-chat-apex" />
+                </picture>
             </div>
             <div class="about-orders__content_inner">
               <h2 class="about-orders__content_inner-title text-2">
@@ -300,10 +311,7 @@
         <div class="footer__content">
             <div class="footer__menu">
                 <div class="footer__logo">
-                    <picture>
-                      <source media="(max-width: 500px)" srcset="img/Logo-mobile.svg" />
-                      <img src="img/Logo.svg" alt="logo Apex" />
-                    </picture>
+                    <img src="img/Logo.svg" alt="logo Apex" />
                   </div>
                   <nav class="footer__nav">
                     <ul class="footer__nav-list">

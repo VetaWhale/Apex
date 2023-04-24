@@ -17,3 +17,19 @@
 }
 .about-sales__content-img {
 }
+
+@media only screen and (max-width: 767px) {
+  .about-sales {
+    padding: 40px 0;
+  }
+  .about-sales__content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-sales__content_inner-title {
+    margin-bottom: 16px;
+  }
+  .about-sales__content_inner-text {
+    margin-bottom: 30px;
+  }
+}

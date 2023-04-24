@@ -33,3 +33,27 @@
 }
 .menu__personal-area_demo {
 }
+.burger-btn {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background: url(../img/burger-menu.svg) no-repeat;
+  border: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .header {
+    padding-bottom: 0;
+  }
+  .burger-btn {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    display: block;
+    z-index: 20;
+  }
+  .menu__nav,
+  .menu__personal-area {
+    display: none;
+  }
+}

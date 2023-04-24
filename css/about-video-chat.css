@@ -22,3 +22,19 @@
 }
 .about-video-chat__content_inner-text {
 }
+
+@media only screen and (max-width: 767px) {
+  .about-video-chat {
+    padding: 40px 0;
+  }
+  .about-video-chat__content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .about-video-chat__content_inner-title {
+    margin-bottom: 28px;
+  }
+  .about-video-chat__content_inner-subtitle {
+    margin-bottom: 12px;
+  }
+}

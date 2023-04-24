@@ -34,3 +34,31 @@
   font-size: 14px;
   line-height: 22px;
 }
+
+@media only screen and (max-width: 767px) {
+  .about-orders {
+    padding: 40px 0;
+  }
+  .about-orders__content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-orders__content_inner-title {
+    margin-bottom: 16px;
+  }
+  .about-orders__content_inner-text {
+    margin-bottom: 32px;
+  }
+  .about-orders__statistic-card {
+    gap: 5px;
+    align-items: center;
+  }
+  .about-orders__statistic-card_no {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .about-orders__statistic-card_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

@@ -1,9 +1,9 @@
 .reviews {
+  padding-top: 85px;
+  padding-bottom: 105px;
   background-color: var(--accent-color);
 }
 .reviews__content {
-  padding-top: 85px;
-  padding-bottom: 105px;
   color: #fff;
 }
 .reviews__content-title {
@@ -56,4 +56,13 @@
 .reviews__card_people-company {
   font-size: 14px;
   line-height: 24px;
+}
+@media only screen and (max-width: 767px) {
+  .reviews {
+    padding: 40px 0;
+  }
+  .reviews__content-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
 }

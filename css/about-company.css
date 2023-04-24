@@ -23,3 +23,13 @@
 }
 .about-company__background-picture {
 }
+
+@media only screen and (max-width: 767px) {
+  .about-company {
+    padding-bottom: 40px;
+  }
+  .about-company__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+}

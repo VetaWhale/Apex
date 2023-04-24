@@ -38,3 +38,25 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+@media only screen and (max-width: 767px) {
+  .features {
+    padding-bottom: 40px;
+  }
+  .features__content-list {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .features__content-list-flex {
+    margin: 0 auto;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .features__content-title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
