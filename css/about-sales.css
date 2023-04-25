@@ -23,7 +23,7 @@
     padding: 40px 0;
   }
   .about-sales__content {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 30px;
   }
   .about-sales__content_inner-title {
