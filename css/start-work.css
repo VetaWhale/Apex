@@ -13,7 +13,7 @@
 .start-work__content-button {
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1199px) {
   .start-work {
     padding: 40px 0;
   }

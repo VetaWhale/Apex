@@ -18,7 +18,7 @@
 .about-sales__content-img {
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1199px) {
   .about-sales {
     padding: 40px 0;
   }

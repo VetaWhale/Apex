@@ -23,7 +23,7 @@
 .about-video-chat__content_inner-text {
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1199px) {
   .about-video-chat {
     padding: 40px 0;
   }

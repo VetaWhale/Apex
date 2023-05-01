@@ -24,13 +24,12 @@
 .about-company__background-picture {
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1199px) {
   .about-company {
     padding-bottom: 40px;
   }
   .about-company__inner {
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
   }
 }
